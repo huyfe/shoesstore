@@ -1,0 +1,134 @@
+Phân tích trang chủ: (từ trên xuống dưới)
+- Block Section header trên cùng sẽ là Hotline, Giới thiệu, Liên hệ, Đăng nhập, đăng xuất, 
+- Block Section header phía dưới bên trái sẽ là logo, ở giữa là tên cửa hàng, bên phải là facebook, insta, youtube, giỏ hàng, tìm kiếm, slogan của web
+- Block Menu sẽ là Hunter, Sandal, Giày thể thao, Giày chạy bộ, Giày đá banh, giày tây, dép
+- Block Banner sẽ là 4 tấm ảnh nghệ thuật, bên trong chữ sẽ đc chạy từ từ ra và kèm hiệu ứng 3D, background thì attachment:fixed
+- Block Sản phẩm mới
+- Block Giảm giá
+- Block Show tiêu đề, ảnh đại diện của 4 Blog mới nhất
+- Block slide show các ảnh đẹp về người mang giày gồm 12 ảnh
+- Block nhận email để thông báo sản phẩm mới
+- Block footer bên trái là block nhỏ copyright và gmail, bên phải sẽ là sđt, địa chỉ, 
+
+LAYOUT TỔNG QUÁT:
+
+body 
+	header (shared UI)
+		section.top-bar
+		section.top-brand
+		nav.top-nav
+	main (unique content for each page)
+		section.banner
+		section.product
+		section.saleoff
+		section.blog
+		section.slide
+		section.email
+	footer (shared UI)
+		section.app-footer
+body
+
+PHÂN TÍCH CHI TIẾT
+
+Section - TOP BAR
+ section.top-bar
+   div.container
+      div.row
+         div.col
+	ul.top-bar__page-menu > li*3 > a >
+
+         div.col
+	div.top-bar__links
+	      a (register)
+	      span (/)
+	      a (login)
+
+Section - TOP BRAND
+	section.top-brand
+		div.container
+			div.row
+				div.col
+					img.top-brand__logo
+				div.col
+					img.top-brand__name
+				div.col
+					ul.top-brand__social-list > li*6 > a > i
+					img.top-brand__slogan
+
+Section - TOP NAV
+	section.top-nav
+		div.container
+			ul.top-nav__menu > li*8 > a
+
+Section - BANNER
+	section.banner (background-image)
+		div.container-fuild
+			h1.banner__title
+
+Section - PRODUCT
+	section.product
+		div.container
+			div.product__title h1
+			div.row
+				div.col-3 * 4 
+					div.product-item
+						img.product-item__image
+						span.product-item__amount
+						h3.product-item__name
+						span.product-item__price
+						button (mua hàng)
+
+Section - SALEOFF
+	section.saleoff
+		div.container
+			div.row
+				div.col-3 * 4 
+					div.product-item
+						img.product-item__image
+						span.product-item__amount
+						h3.product-item__name
+						span.product-item__price
+						button (mua hàng)
+
+Section - BLOG
+	section.blog
+		div.container-fluid
+			div.row
+				div.col-6 * 2
+					div.blog-item (background-image)
+						h1.blog-item__title
+						p.blog-item__content
+						button (Read now)
+
+Section - SLIDE
+	section.slide
+		img*8
+
+Section - EMAIL		
+	section.email
+		div.container
+			div.row
+				div.col 
+					p.email__text
+						
+				div.col
+					div.email__input
+						input
+						button (Đăng ký)
+
+Section - FOOTER
+	section.footer
+		div.container
+			div.row
+				div.col
+					div.footer__copyright
+						b.footer__copyright-copyright
+						span.footer__copyright-email
+				div.col
+					div.footer__contact
+						p.footer__contact-phone
+						p.footer__contact-address
+					
+								
+						
+		

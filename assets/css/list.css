@@ -1,0 +1,68 @@
+.list-box {
+    width: 90%;
+    min-height: 400px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.list-box>.list__title h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.list__filter {
+    height: 400px;
+    background-color: white;
+}
+
+.list__product {
+    min-height: 400px;
+    background-color: white;
+}
+
+.filter__price p,
+.filter__size p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.filter__price input {
+    width: 100%;
+}
+
+.box-filter__size {
+    display: flex;
+    justify-content: between;
+    flex-wrap: wrap;
+}
+
+.box-filter__size button {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.box-filter__size button:hover {
+    background-color: orange;
+}
+
+.box-filter__color {
+    display: flex;
+    justify-content: between;
+    flex-wrap: wrap;
+}
+
+.box-filter__color button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50%;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.box-filter__color button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

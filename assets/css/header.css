@@ -1,0 +1,256 @@
+/*******************/
+
+
+/* SECTION TOP-BAR */
+
+
+/* PAGE MENU */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: .2s;
+}
+
+.topnav #myLinks {
+    display: none;
+    transition: .2s;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.top-bar {
+    padding: 0.5rem 0;
+    background-color: black;
+}
+
+.top-bar__page-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+}
+
+.top-bar__page-menu>li {
+    margin-right: 1rem;
+}
+
+.top-bar__page-menu>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar__page-menu>li>a:hover {
+    color: orange;
+    transition: .2s;
+}
+
+
+/* LINKS */
+
+.top-bar__links>a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar__links>span {
+    color: white;
+}
+
+
+/*********************/
+
+
+/* SECTION TOP BRAND */
+
+.top-brand {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.top-brand__logo {
+    margin-top: 1rem;
+}
+
+.top-brand__name {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SOCIAL LIST */
+
+.top-brand__social-list {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.top-brand__social-list>li {
+    margin-right: 1rem;
+}
+
+.top-brand__social-list>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-brand__social-list>li>a:hover {
+    color: orange;
+    transition: .2s;
+}
+
+.top-brand__social-list .li-cart {
+    position: relative;
+}
+
+.top-brand__social-list__cart-item {
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 40px;
+    left: -350px;
+    padding: 10px;
+    width: 400px;
+    min-height: 200px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.034);
+    z-index: 1;
+    transform: scale(0);
+    transition: transform .2s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top-brand__social-list .li-cart:hover .top-brand__social-list__cart-item {
+    transform: scale(1);
+}
+
+.top-brand__social-list__cart-item::before {
+    content: "";
+    position: absolute;
+    right: 2%;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-bottom: 26px solid #fafafa;
+    border-left: 30px solid transparent;
+    z-index: -1;
+}
+
+.top-brand__social-list__cart-item img {
+    margin-right: 5%;
+}
+
+.top-brand__social-list__cart-item b {
+    margin-top: -10px;
+}
+
+.top-brand__social-list__cart-item .checkout {
+    margin-top: 10px;
+}
+
+.top-brand__social-list__cart-item .checkout a {
+    float: right;
+    text-decoration: none;
+    padding: 3px 5px;
+    background-color: rgba(255, 0, 0, 0.74);
+    border-radius: 3px;
+    color: white;
+}
+
+.cart-item__child a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+.cart-item__child span {
+    font-size: 15px;
+    color: orange;
+}
+
+.li-cart__count {
+    font-size: 10px;
+    position: absolute;
+    padding: 1px 4px;
+    background-color: orange;
+    color: white;
+    top: -10px;
+}
+
+.checkout>span {
+    color: orangered;
+    margin: 0;
+}
+
+
+/*********************/
+
+
+/* SECTION TOP-NAV */
+
+.top-nav {
+    padding: 3rem 0;
+}
+
+.top-nav__menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.top-nav__menu>li>a {
+    padding: 0 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+.top-nav__menu>li>a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+}

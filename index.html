@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon_io/favicon.ico" />
+    <title>Beauty Shoes Store</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+
+
+
+    <!--**********************-->
+    <!--* Embedded app.js *-->
+
+
+    <!--**********************-->
+    <!--* Embedded Scroll *-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!--**********************-->
+    <!--* Embedded Swiper *-->
+    <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.min.css">
+    <script src="assets/lib/swiper/swiper-bundle.js"></script>
+
+
+    <!--**********************-->
+    <!--* Embedded Animate.css *-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <!--**********************-->
+    <!--* Embedded Google Fonts *-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!--**********************-->
+    <!--* Embedded Bootstrap *-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Start HEADER-->
+    <header>
+        <!-- Start section top-bar -->
+        <section class="top-bar">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <ul class="top-bar__page-menu">
+                            <li><a href="#">Hotline: 0333 964 846</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <div class="top-bar__links">
+                            <a href="#">Đăng nhập</a>
+                            <span>/</span>
+                            <a href="#">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Huy FE</a>
+            <div id="myLinks">
+                <a href="#">Giới thiệu</a>
+                <a href="#">Liên hệ</a>
+                <a href="#">Đăng nhập</a>
+                <a href="#">Đăng ký</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!-- End section top-bar-->
+
+        <!-- Start section top-brand -->
+        <section class="top-brand">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="" class="top-brand__logo" width="80px"></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="top-brand__name">
+                            <a href="index.html"><img src="assets/images/logo-text.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="top-brand__social-list">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                            <li class="li-cart">
+                                <a href=""><i class="fas fa-shopping-cart"></i> <span class="li-cart__count">10</span> </a>
+                                <section class="top-brand__social-list__cart">
+                                    <article class="top-brand__social-list__cart-item">
+                                        <div class="cart-item__child">
+                                            <a href="#">
+                                                <img src="assets/images/shoes/hunter-6.jpg" width="20%">
+                                                <b>Bitis hunter  <span>Price: 199</span></b>
+                                            </a>
+                                        </div>
+                                        <div class="cart-item__child">
+                                            <a href="#">
+                                                <img src="assets/images/shoes/hunter-6.jpg" width="20%">
+                                                <b>Bitis hunter  <span>Price: 199</span></b>
+                                            </a>
+                                        </div>
+                                        <div class="checkout">
+                                            Tổng: <span>300$</span>
+                                            <a href="#">Thanh toán</a>
+                                        </div>
+                                    </article>
+                                </section>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End section top-brand-->
+
+        <!-- Start section top-nav -->
+        <section class="top-nav">
+            <div class="container">
+                <ul id="catalog" class="top-nav__menu">
+                    <li><a href="list.html">Hunter</a></li>
+                    <li><a href="list.html">Giày thể thao</a></li>
+                    <li><a href="list.html">Giày chạy bộ</a></li>
+                    <li><a href="list.html">Giày đá banh</a></li>
+                    <li><a href="list.html">Giày tây</a></li>
+                    <li><a href="list.html">Blog</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- End section top-nav -->
+    </header>
+    <!-- End HEADER -->
+
+    <!-- Start MAIN -->
+    <main id="main">
+
+        <!-- Start section BANNER -->
+        <section class="banner slider animate__animated animate__zoomIn">
+            <!-- background-image -->
+            <div class="container-fluid">
+                <div class="row">
+                    <h1 class="banner__title">FLYHIGH <br> YOURSTYLE</h1>
+                    <a href="#" class="banner__button">SHOP NOW</a>
+                </div>
+            </div>
+        </section>
+        <!-- End section BANNER -->
+
+        <!-- Start section PRODUCT -->
+        <section class="product">
+            <div class="container">
+                <div class="product__title" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-delay="10000">
+                    <h1>New Product</h1>
+                    <div class="line"></div>
+                </div>
+                <div id="row1" class="row" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-1.jpg" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-2.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-3.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-4.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="row2" class="row" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-1.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-2.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-3.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-4.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Giày Thể Thao Nam Biti's</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__view-more">
+                <button id="xem-them">Xem thêm</button>
+                <div id="load-gif"></div>
+            </div>
+        </section>
+        <!-- End section PRODUCT -->
+
+        <!-- Start section SALEOFF -->
+        <section class="saleoff">
+            <div class="container">
+                <div class="saleoff__title" data-aos="fade-down" data-aos-anchor-placement="bottom-center" data-aos-delay="1000">
+                    <h1 class="animate__animated animate__bounceInDown">Sale Off</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-5.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-6.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-7.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-8.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-5.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-6.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-7.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="product-item">
+                            <a href="#"><img src="assets/images/shoes/hunter-8.jpg" alt="" class="product-item__image"></a>
+                            <span class="product-item__amount">SL: 1</span>
+                            <h3 class="product-item__name"><a href="#">Bitis</a></h3>
+                            <p class="product-item__price">1000 ₫</p>
+                            <a class="product-item__cart" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <button class="product-item__button">Mua hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__view-more">
+                    <button>Xem thêm</button>
+                </div>
+            </div>
+        </section>
+        <!-- End section SALEOFF -->
+
+        <!-- Start section BLOG-->
+        <section class="blog">
+            <div class="container">
+                <div class="blog__title" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-delay="1000">
+                    <h1>Blog</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="blog-item-main">
+                            <h1 class="blog-item__title"><a href="#">Giặt giày như thế nào là đúng cách?</a></h1>
+                            <p class="blog-item__content">Để giặt 1 đôi giày sạch đẹp, không bị ố vàng thì không phải ai cũng biết <br> Cách làm:
+                                <br>1. Pha hỗn hợp baking soda và giấm theo tỷ lệ 2:3, trong đó baking soda 2 phần, giấm 3 phần.
+                                <br>2. Bôi hỗn hợp đã chuẩn bị ở trên lên giày. Nếu giày quá bẩn, nên để khoảng 20 phút rồi mới bắt đầu làm sạch giày.
+                                <br>3. Dùng bàn chải chà khắp giày để làm sạch.
+                                <br>4. Giặt lại giày với nước sạch cho đến khi hết hoàn toàn hỗn hợp.
+                            </p>
+                            <div class="blog-item-main__image"><img src="assets/images/blog/giat-giay-1.jpg" alt=""></div>
+                            <button class="btn btn-info">Read more... </button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="blog-item">
+                            <div class="blog-item__image">
+                                <a href="#"><img src="assets/images//blog/giat-giay-1.jpg" alt=""></a>
+                            </div>
+                            <h1 class="blog-item__title"><a href="#">Giặt giày như thế nào là đúng cách?</a></h1>
+                            <p class="blog-item__content">Để giặt 1 đôi giày sạch đẹp, không bị ố vàng thì không phải ai cũng biết</p>
+                            <button class="btn btn-primary">Read now <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-item__image">
+                                <a href="#"><img src="assets/images//blog/giat-giay-1.jpg" alt=""></a>
+                            </div>
+                            <h1 class="blog-item__title"><a href="#">Giặt giày như thế nào là đúng cách?</a></h1>
+                            <p class="blog-item__content">Để giặt 1 đôi giày sạch đẹp, không bị ố vàng thì không phải ai cũng biết</p>
+                            <button class="btn btn-primary">Read now <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-item__image">
+                                <a href="#"><img src="assets/images//blog/giat-giay-1.jpg" alt=""></a>
+                            </div>
+                            <h1 class="blog-item__title"><a href="#">Giặt giày như thế nào là đúng cách?</a></h1>
+                            <p class="blog-item__content">Để giặt 1 đôi giày sạch đẹp, không bị ố vàng thì không phải ai cũng biết</p>
+                            <button class="btn btn-primary">Read now <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-item__image">
+                                <a href="#"><img src="assets/images//blog/giat-giay-1.jpg" alt=""></a>
+                            </div>
+                            <h1 class="blog-item__title"><a href="#">Giặt giày như thế nào là đúng cách?</a></h1>
+                            <p class="blog-item__content">Để giặt 1 đôi giày sạch đẹp, không bị ố vàng thì không phải ai cũng biết</p>
+                            <button class="btn btn-primary">Read now <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-item__image">
+                                <a href="#"><img src="assets/images//blog/giat-giay-1.jpg" alt=""></a>
+                            </div>
+                            <h1 class="blog-item__title"><a href="#">Giặt giày như thế nào là đúng cách?</a></h1>
+                            <p class="blog-item__content">Để giặt 1 đôi giày sạch đẹp, không bị ố vàng thì không phải ai cũng biết</p>
+                            <button class="btn btn-primary">Read now <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End section BLOG-->
+
+        <!-- Start section SLIDE -->
+        <section class="slide">
+            <div class="slider ">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/images/slide/1.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/2.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/3.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/4.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/5.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/6.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/7.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/slide/8.png"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- End section SLIDE -->
+
+        <!-- Start section EMAIL -->
+        <section class="email">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="email__text">ĐĂNG KÝ EMAIL ĐỂ NHẬN THÊM NHIỀU THÔNG TIN MỚI TỪ SHOES STORE</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="email__input">
+                            <input type="text" placeholder="Nhập e-mail của bạn vào đây...">
+                            <button><i class="fas fa-location-arrow"></i> Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End section EMAIL-->
+
+    </main>
+    <!-- End main -->
+
+    <!-- Start FOOTER-->
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="row footer__flex">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="footer__facebook">
+                            <div class="fb-page" data-href="https://www.facebook.com/haihuoclinhtinh/" data-tabs="timeline" data-width="500px" data-height="300px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/haihuoclinhtinh/" class="fb-xfbml-parse-ignore">
+                                    <a href="https://www.facebook.com/haihuoclinhtinh/">Stranger</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="footer__copyright">
+                            <h5>Home</h5>
+                            <a href="#">Trang chủ</a>
+                            <a href="#">Liên hệ</a>
+                            <a href="#">Giới thiệu</a> <br>
+                            <span class="footer__contact-phone">0333 964 846</span> <br>
+                            <span class="footer__contact-address">Tây Ninh, Việt Nam</span> <br>
+                            <b>© 2020 ShoesStore.com</b>
+                            <span class="footer__copyright-email">huyyntran@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="footer__contact">
+                            <h5>Chính sách</h5>
+                            <a href="#">Khách hàng VIP</a>
+                            <a href="#">Quà tặng khuyến mãi</a>
+                            <a href="#">Thông tin vận chuyển</a>
+                            <a href="#">Hình thức thanh toán</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End FOOTER-->
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0&appId=620116525454173&autoLogAppEvents=1" nonce="3WTLIgEl"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="assets/lib/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
